@@ -1,4 +1,4 @@
-###setup
+### setup
 create a directory for the input images.
 
 then, just make a config.json file in this format:
@@ -22,12 +22,12 @@ they default to png, art, and out respectively.
 finally, execute:
 npm install
 
-###usage
+### usage
 
 to create a collage, add images to the input folder and execute:
 npm run compose
 
-###config key
+### config key
 
 leftRight defines the fill order: left to right, top to bottom or top to bottom, left to right
 format defines the image format of the output image.

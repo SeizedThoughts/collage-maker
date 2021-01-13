@@ -56,5 +56,6 @@ Promise.all(imagePromises).then((results) => {
         .then(() => {
             console.log('Load images (seconds):', (loadTime - startTime) / 1000);
             console.log('Composite image (seconds):', (Date.now() - startTime) / 1000);
+            console.log('Composition complete!');
         });
 });
